@@ -2,7 +2,7 @@
   "name": "local-storage-machine",
   "private": true,
   "scripts": {
-    "build": "tsup src/index.ts --format esm,cjs --dts --minify --external react --external xstate",
+    "build": "tsup src/index.ts --format esm,cjs --dts --minify --external zod --external xstate",
     "test": "vitest run",
     "type-check": "tsc --pretty --noEmit"
   },
